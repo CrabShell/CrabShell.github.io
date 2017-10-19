@@ -1,32 +1,81 @@
-# Permalinks
-permalink:           pretty
-
-# Setup
-title:               Crab
-tagline:             The Jekyll Butler
-url:                 https://github.com/CrabShell/CrabShell.github.io
-paginate:            1
-baseurl:             ""
-
-# Assets
+# Welcome to Jekyll!
 #
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# About/contact
-author:
-  name:              谢斌
-  url:               https://crablion.cn
-  email:             179501590@qq.com
+## Base settings ##
+base_url: "https://tianqi.name" #The site's Protocol and Hostname e.g. https://blog.someone.com (!!required!!)
+description: > #this means to ignore newlines until "base_path:"
+    Tian Qi | 田琦
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+##* Home base settings ##
+base_path: "/"
+title: Tian Qi
+avata_url: https://wx3.sinaimg.cn/large/73bd9e13ly1fjkqy66hl8j208c08c0td.jpg
 
-# Gems
+##* Blog base settings ##
+blog:
+  base_path: "/blog"
+  title: Qi's blog
+  description: Tian Qi's Blog | 田琦的博客
+  nav_lists:
+    - title: About
+      url: /blog/about.html
+##* Artsworks base settings ##
+artworks:
+  base_path: ""
+
+## GitHub repository (if the site is hosted by GitHub) ##
+github_repo: kitian616.github.io
+github_repo_tree: master
+
+## Language & timezone ##
+lang: zh # the language of your site
+timezone: Asia/Shanghai
+
+## Author & social ##
+author: "Tian Qi"
+email: kitian616@outlook.com
+twitter_username: kitian616
+github_username:  kitian616
+googleplus_username: 101827554735084402671
+weibo_username: 234695683
+douban_username: kitian616
+
+## Comment system (Disqus) ##
+disqus_shortname: kitian616-github-io
+
+## Google Analytics ##
+ga_tracking_id: UA-71907556-1
+
+## Reading quantity (LeanCloud) ##
+app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
+app_key: Mzf5m9skSwYVWVXhGiYMNyXs
+app_class: ThomasBlog
+
+## Paginate ##
+paginate: 7
+paginate_path: /blog/page:num
+
+## Post excerpts ##
+excerpt_separator: <!--more-->
+
+## Build ##
+markdown: kramdown
+highlighter: rouge
+permalink: date
+
+## Plugins ##
 gems:
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-paginate
-  - jekyll-gist
+  - jemoji
+
+## Server ##
+server_url: "0.0.0.0"
+
+## Development ##
+isdebug: false

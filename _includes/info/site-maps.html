@@ -1,0 +1,17 @@
+
+<div class="site-maps">
+    {% if site.blog.base_path %}
+        <p>
+            <a class="social-link blog" title="Visit my blog." itemprop="sameAs" href="{{ site.blog.base_path | prepend: site.base_path | replace: '//', '/' }}" target="_self">
+                Visit My Blog
+            </a>
+        </p>
+    {% endif %}
+    {% if site.artworks.base_path %}
+        <p>
+            <a class="social-link blog" title="See my artworks." itemprop="sameAs" href="{{ site.artworks.base_path | prepend: site.base_path | replace: '//', '/' }}" target="_self">
+                See my artworks
+            </a>
+        </p>
+    {% endif %}
+</div>

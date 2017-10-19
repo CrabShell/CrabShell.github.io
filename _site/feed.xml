@@ -1,13 +1,860 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-19T14:16:42+08:00</updated><id>http://localhost:4000/</id><title type="html">Crab Coding Mind &amp;amp;&amp;amp; Colletions</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/10/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-10-19T11:42:14+08:00</published><updated>2017-10-19T11:42:14+08:00</updated><id>http://localhost:4000/jekyll/update/2017/10/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/10/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2017-10-19T16:01:25+08:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Tian Qi</title><subtitle>Tian Qi | 田琦
+</subtitle><author><name>Tian Qi</name></author><entry><title type="html">极简主题：TeXt Theme</title><link href="http://0.0.0.0:4000/blog/2017/10/05/TeXt-theme.html" rel="alternate" type="text/html" title="极简主题：TeXt Theme" /><published>2017-10-05T01:00:00+08:00</published><updated>2017-10-05T01:00:00+08:00</updated><id>http://0.0.0.0:4000/blog/2017/10/05/TeXt-theme</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2017/10/05/TeXt-theme.html">&lt;p&gt;嗨，最近在原有的基础上做了些修改，形成了这个新的主题，我把它叫做 &lt;code class=&quot;highlighter-rouge&quot;&gt;TeXt&lt;/code&gt;。&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;颜色的选择和搭配不是一件容易的事，为了简单，新的主题移除了 Header 和 Footer 的背景色彩，改用了白色和灰色，同时也移除了大部分的阴影效果和分割线，整个页面看起来更加清(jian)爽(lou)了。&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshot.png&quot; alt=&quot;TeXt Theme&quot; /&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;模仿 iOS 11 的风格，新的标题字体比之前更大了些，链接和按钮也更大更粗了。总之，整体的风格就是：&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;ul&gt;
+  &lt;li&gt;更凸显的标题和按钮文字&lt;/li&gt;
+  &lt;li&gt;更多的弧（圆）形元素&lt;/li&gt;
+  &lt;li&gt;更少的内容无关的修辞&lt;/li&gt;
+  &lt;li&gt;没有太多的图片（不用像有些主题需要费心去找什么封面和配图）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshot-details.png&quot; alt=&quot;TeXt Theme Details&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;当然功能还是全的：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;响应式&lt;/li&gt;
+  &lt;li&gt;分页&lt;/li&gt;
+  &lt;li&gt;文章目录（使用了 &lt;a href=&quot;http://projects.jga.me/toc/&quot;&gt;TOC&lt;/a&gt; 插件，nice work !）&lt;/li&gt;
+  &lt;li&gt;文章标签&lt;/li&gt;
+  &lt;li&gt;阅读次数统计（&lt;a href=&quot;https://leancloud.cn/&quot;&gt;LeanCloud&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;Emoji（&lt;a href=&quot;https://www.emojione.com/&quot;&gt;EmojiOne&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;评论（&lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;Google Analytics&lt;/li&gt;
+  &lt;li&gt;联系方式设置（Email, Facebook, Twitter, 微博, 知乎……）&lt;/li&gt;
+  &lt;li&gt;Web 语意化&lt;/li&gt;
+  &lt;li&gt;Color Theme&lt;/li&gt;
+  &lt;li&gt;网站图标的自动化工具&lt;/li&gt;
+  &lt;li&gt;RSS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;整体来说，当前的这个主题算是第一个让我比较满意的作品。首先它不需要去找什么封面和配图（这也是我自己做主题的最大原因）。其次，它不丑（至少我这么认为）。最后，它有文章的目录指示器，我认为这是很有必要的功能。&lt;/p&gt;
+
+&lt;p&gt;该主题已经正式发布了，并且写了份比较详细的文档，详见 &lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme&quot;&gt;kitian616/jekyll-TeXt-theme&lt;/a&gt;。欢迎使用和找茬，当然如果能提交代码就更好了。 :smile:&lt;/p&gt;
+
+&lt;p&gt;整个博客的风格应该不会再大变了，内容才是最重要的。&lt;/p&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="blog" /><summary type="html">嗨，最近在原有的基础上做了些修改，形成了这个新的主题，我把它叫做 TeXt。
+
+颜色的选择和搭配不是一件容易的事，为了简单，新的主题移除了 Header 和 Footer 的背景色彩，改用了白色和灰色，同时也移除了大部分的阴影效果和分割线，整个页面看起来更加清(jian)爽(lou)了。
+
+
+
+模仿 iOS 11 的风格，新的标题字体比之前更大了些，链接和按钮也更大更粗了。总之，整体的风格就是：
+
+
+  更凸显的标题和按钮文字
+  更多的弧（圆）形元素
+  更少的内容无关的修辞
+  没有太多的图片（不用像有些主题需要费心去找什么封面和配图）</summary></entry><entry><title type="html">使用 textlint 解决中英文混排的问题</title><link href="http://0.0.0.0:4000/blog/2017/09/15/textlint.html" rel="alternate" type="text/html" title="使用 textlint 解决中英文混排的问题" /><published>2017-09-15T19:00:00+08:00</published><updated>2017-09-15T19:00:00+08:00</updated><id>http://0.0.0.0:4000/blog/2017/09/15/textlint</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2017/09/15/textlint.html">&lt;p&gt;中英混排一直都是一个挺麻烦的事情，对于 Word 这种软件会自动在中英文之间加上留白。但是对于网页，现阶段就无能为力了。&lt;/p&gt;
+
+&lt;p&gt;所以现在有很多规范都要求中文和英文之间必须加上空格，例如&lt;a href=&quot;https://github.com/fex-team/styleguide/blob/master/markdown.md&quot;&gt;这个规范&lt;/a&gt;。这样确实是大大提高了可读性，不管是在网页上，还是在编辑器中，不过在实际的书写中，我们还是会经常的会漏掉一些空格。而且在我看来，通过在内容中加入一些空格来优化其显示，这本身就不是一个非常完美的方案。内容本应该只有内容，而样式就应该跟内容彻底的解耦。不过目前来看，我还是支持加空格的。&lt;/p&gt;
+
+&lt;p&gt;于是，为了能更好的“加空格”，为了更好的把样式和内容解耦，我开始寻求插件的帮助。而 &lt;a href=&quot;https://github.com/textlint/textlint&quot;&gt;textlint&lt;/a&gt; 就能够很好的解决这个问题。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;textlint-&quot;&gt;textlint 的安装&lt;/h2&gt;
+
+&lt;p&gt;textlint 是一个针对 Markdown 和文本文件的 Lint 工具，当然页可以通过插件支持 HTML 等其他文件。textlint 本身不包含任何的规则，你需要单独的来安装规则包。textlint 使用 Node.js 开发，我们能很容易的进行安装：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;npm install textlint -g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;规则包&lt;/h2&gt;
+
+&lt;p&gt;我们还需要安装一些规则包。通过官网的 &lt;a href=&quot;https://github.com/textlint/textlint/wiki/Collection-of-textlint-rule&quot;&gt;规则包列表&lt;/a&gt;，我们能够很方便的找到一些我们需要的规则包。&lt;/p&gt;
+
+&lt;p&gt;这里我想要介绍的是 &lt;a href=&quot;https://github.com/textlint-ja/textlint-rule-spacing/tree/master/packages/textlint-rule-ja-space-between-half-and-full-width&quot;&gt;textlint-rule-ja-space-between-half-and-full-width&lt;/a&gt; 规则包，虽然是日语的，但是对中文也同样有用。&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;npm install textlint-rule-ja-space-between-half-and-full-width -g
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;安装好后按照文档中配好 &lt;code class=&quot;highlighter-rouge&quot;&gt;textlintrc&lt;/code&gt; 文件就可以用了。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;编辑器&lt;/h2&gt;
+
+&lt;p&gt;textlint 支持&lt;a href=&quot;https://github.com/textlint/textlint#editors&quot;&gt;非常多的编辑器&lt;/a&gt;，下载好对应的编辑器插件后，就可以使用了。&lt;/p&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="Tools" /><category term="VSCode" /><summary type="html">中英混排一直都是一个挺麻烦的事情，对于 Word 这种软件会自动在中英文之间加上留白。但是对于网页，现阶段就无能为力了。
+
+所以现在有很多规范都要求中文和英文之间必须加上空格，例如这个规范。这样确实是大大提高了可读性，不管是在网页上，还是在编辑器中，不过在实际的书写中，我们还是会经常的会漏掉一些空格。而且在我看来，通过在内容中加入一些空格来优化其显示，这本身就不是一个非常完美的方案。内容本应该只有内容，而样式就应该跟内容彻底的解耦。不过目前来看，我还是支持加空格的。
+
+于是，为了能更好的“加空格”，为了更好的把样式和内容解耦，我开始寻求插件的帮助。而 textlint 就能够很好的解决这个问题。</summary></entry><entry><title type="html">LeanCloud 使用记</title><link href="http://0.0.0.0:4000/blog/2016/10/05/leancloud-use-records.html" rel="alternate" type="text/html" title="LeanCloud 使用记" /><published>2016-10-05T01:15:00+08:00</published><updated>2016-10-05T01:15:00+08:00</updated><id>http://0.0.0.0:4000/blog/2016/10/05/leancloud-use-records</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2016/10/05/leancloud-use-records.html">&lt;p&gt;&lt;img src=&quot;https://leancloud.cn/images/static/press/Logo%20-%20Blue%20Padding.png&quot; alt=&quot;LeanCloud&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这个博客本来是有浏览量统计功能的，之前是使用的 Python Flask 框架、MySQL 数据库在新浪云上搭建的。奈何后来新浪云更改了公共 MySQL 数据库的收费策略，对于这么一个小的后端服务来说，每天接近一元的价格显得太过昂贵。于是这个功能就不了了之了，很长时间它都是无效的状态，我也没怎么去管它。&lt;/p&gt;
+
+&lt;p&gt;昨天晚上在知乎上闲逛，无意看到了一个叫 &lt;a href=&quot;https://leancloud.cn/&quot;&gt;LeanCloud&lt;/a&gt; 的云服务，价格几乎是免费的，于是心血来潮，想着在 LeanCloud 上再搭建一个浏览量统计后端。事实证明，LeanCloud 根本就不是一个传统意义上的云服务器，它更像是一个平台，一个开发接口。借助 LeanCloud 提供的数据写入、查找和更新接口，我直接在前端调用这些接口就完成我的目标。总之，我没有写一行的后端代码。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;很惊讶吧？是的，我也很惊讶。其实，一般在写 Java Web 的时候，我们基本都会先去封装一个数据库的操作库，包括数据库的连接、数据的增删改查。然后再这个基础上，再来写业务的逻辑代码。LeanCloud 在云平台上为我们提供了这些数据库的通用接口，而业务的逻辑代码，可以直接写在前端网页上。&lt;/p&gt;
+
+&lt;p&gt;近年来，前后端分离，REST 架构开始流行，越来越多的业务开始放到了前端，后端只需提供数据的接口。我认为这是一种非常不错的开发模式。它把前后端的开发分离开来，使得前端和后端之间的开发互相独立，提高了开发效率。同时，也能减缓服务器的压力，降低运营成本。而且更加简单纯粹的后端，也能产生更好的复用性，网页、iOS 应用、安卓应用甚至微信服务号都可以共用一套后端接口。这正是我多年以前想过的问题，那时我还只会 Jsp。&lt;/p&gt;
+
+&lt;p&gt;总之 LeanCloud 很符合当今 Web 的发展趋势，是一款非常不错的产品，值得推荐和学习。&lt;/p&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="blog" /><summary type="html">这个博客本来是有浏览量统计功能的，之前是使用的 Python Flask 框架、MySQL 数据库在新浪云上搭建的。奈何后来新浪云更改了公共 MySQL 数据库的收费策略，对于这么一个小的后端服务来说，每天接近一元的价格显得太过昂贵。于是这个功能就不了了之了，很长时间它都是无效的状态，我也没怎么去管它。
+
+昨天晚上在知乎上闲逛，无意看到了一个叫 LeanCloud 的云服务，价格几乎是免费的，于是心血来潮，想着在 LeanCloud 上再搭建一个浏览量统计后端。事实证明，LeanCloud 根本就不是一个传统意义上的云服务器，它更像是一个平台，一个开发接口。借助 LeanCloud 提供的数据写入、查找和更新接口，我直接在前端调用这些接口就完成我的目标。总之，我没有写一行的后端代码。</summary></entry><entry><title type="html">第三代主题：Chameleon Theme</title><link href="http://0.0.0.0:4000/blog/2016/09/18/chameleon-theme.html" rel="alternate" type="text/html" title="第三代主题：Chameleon Theme" /><published>2016-09-18T18:50:00+08:00</published><updated>2016-09-18T18:50:00+08:00</updated><id>http://0.0.0.0:4000/blog/2016/09/18/chameleon-theme</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2016/09/18/chameleon-theme.html">&lt;p&gt;&lt;img src=&quot;https://wx4.sinaimg.cn/large/73bd9e13ly1fjled0mmsaj20sg0gf0vg.jpg&quot; alt=&quot;Chameleon Theme Preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;好长时间没有写文章了。自从五月份以来，实习、论文和面试成为了生活的主旋律。比较压抑，也比较浮躁，压根就无法静下心来 &lt;s&gt;挥洒笔墨&lt;/s&gt; 练打字了，不过这并不意味着这个博客就被我遗忘了。其实，在这段时间里，我默默地重构了整个博客项目的代码，同时，&lt;strong&gt;再一次&lt;/strong&gt;改变了 &lt;s&gt;世界&lt;/s&gt; 博客的样式。从第一版到如今的第三版，整个博客见证了我对前端的理解和我对设计理解的变迁。&lt;/p&gt;
+
+&lt;p&gt;这个新的主题被我称为“Chameleon Theme”，意为“变色龙主题”。科技以换壳为本，主题以换色为本。使用者可以根据自己的爱好，设定自己喜欢的主题色，这样就不会千篇一律了，至少在颜色上。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;新的主题同样遵循响应式的设计，PC、平板和手机都有着不同的页面布局，同样大量的使用 HTML5 和 CSS3 的新特性，所以目前还是只兼容现代浏览器。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;主题色&lt;/h2&gt;
+
+&lt;p&gt;主题色是“变色龙主题”最大特点，在项目源文件 &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/_setting.colors.scss&lt;/code&gt; 中有三个变量，分别为 &lt;code class=&quot;highlighter-rouge&quot;&gt;$main-color-1&lt;/code&gt;、&lt;code class=&quot;highlighter-rouge&quot;&gt;$main-color-2&lt;/code&gt;和 &lt;code class=&quot;highlighter-rouge&quot;&gt;$main-color-3&lt;/code&gt;， 通过设定这 3 个变量，用户就可以自定义网站的颜色了。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$main-color-1&lt;/code&gt; 代表强调色，建议较鲜艳的颜色。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$main-color-2&lt;/code&gt; 代表主色，是页面的主要颜色。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$main-color-3&lt;/code&gt; 代表配色，是搭配主色的辅助色，避免网页的色彩过于单调。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;导航栏&lt;/h2&gt;
+
+&lt;p&gt;导航栏这块一直是我最纠结的部分。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;导航栏真的需要始终显示在顶部吗？&lt;/li&gt;
+  &lt;li&gt;汉堡包按钮真的好吗？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;对于第一个问题，我认为这跟导航栏的使用频率和重要程度有关。如果用户需要经常去使用导航栏，那么将导航栏始终显示在屏幕顶部是有价值的。&lt;/p&gt;
+
+&lt;p&gt;例如大部分的新闻网站和门户网站通常都会把分类放在始终显示的导航栏上，以提醒用户和方便分类的切换。但是，对于一个用来展示文章的博客，导航栏的意义并不是特别的大。我想要的是用户能&lt;strong&gt;完完整整&lt;/strong&gt;的看完一篇文章，而不是只看一半就切换到另一个页面去了。所以，在新的主题中导航栏只是普通的布局，不会始终占据屏幕的顶部空间。&lt;/p&gt;
+
+&lt;p&gt;对于第二个问题，个人认为汉堡包按钮并不是一个很友好的设计，应该尽量避免使用。汉堡包按钮默认隐藏了导航的条目，只有在用户手动点击按钮之后才可以看到具体的导航条目（见下图），这是一种非常不直观的交互方式，违背了“所见即所得”的设计原则，而且位于屏幕右（左）上角的位置也非常不方便点击。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx4.sinaimg.cn/large/73bd9e13ly1fjled04yy4j20qo0fs13n.jpg&quot; alt=&quot;新旧导航栏&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;所以，新的主题摒弃了之前的汉堡包导航栏设计，移除了汉堡包按钮，将导航栏另起一行放到了标题的下面（见上图最右）。这样更加直观，同样也能鼓励用户去浏览网站的其他页面。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;内容的展示&lt;/h2&gt;
+
+&lt;p&gt;博客最重要的功能是 &lt;s&gt;炫技&lt;/s&gt; 展示文章的内容。所以，博客页面应该尽量的简洁，让用户能够把注意力放在文章内容上。&lt;/p&gt;
+
+&lt;p&gt;比如代码框，上一版本的代码框标题栏是蓝色的（见下图一），新的代码框标题栏是灰色的（见下图二）。这样可以避免鲜艳的色彩分散用户的注意力。毕竟代码的内容才是最重要的，至于何种语言的代码，这只是一个附加的说明。&lt;/p&gt;
+
+&lt;p&gt;同时，新的代码框还使用了间隔条纹的设计，能让用户更方便的去定位一行的内容，方便代码的阅读。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/large/73bd9e13ly1fjleczi0ftj20b4054mxe.jpg&quot; alt=&quot;之前的代码展示&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/large/73bd9e13ly1fjlecyil9bj20b404vq35.jpg&quot; alt=&quot;新的代码展示&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;标签页&lt;/h2&gt;
+
+&lt;p&gt;新的标签页（All Posts）在原有的基础上进行了改进，标签按钮使用颜色的深浅来表示该标签下博文数量的多少，同时新的标签按钮使用胶囊型的设计，显得更加精细和美观（见下图右）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx4.sinaimg.cn/large/73bd9e13ly1fjlecy3ihmj20hs0fs0yc.jpg&quot; alt=&quot;标签页&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;后记&lt;/h2&gt;
+
+&lt;p&gt;新博客的介绍就到这了，作为一个计算机专业的 &lt;s&gt;前端工程师&lt;/s&gt; &lt;s&gt;程序员&lt;/s&gt; 码农，有时从用户的角度来思考自己码出来的产品不失是一件颇为有趣的事。&lt;/p&gt;
+
+&lt;p&gt;又及，&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;不懂产品的设计师不是好前端。&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="blog" /><summary type="html">好长时间没有写文章了。自从五月份以来，实习、论文和面试成为了生活的主旋律。比较压抑，也比较浮躁，压根就无法静下心来 挥洒笔墨 练打字了，不过这并不意味着这个博客就被我遗忘了。其实，在这段时间里，我默默地重构了整个博客项目的代码，同时，再一次改变了 世界 博客的样式。从第一版到如今的第三版，整个博客见证了我对前端的理解和我对设计理解的变迁。
+
+这个新的主题被我称为“Chameleon Theme”，意为“变色龙主题”。科技以换壳为本，主题以换色为本。使用者可以根据自己的爱好，设定自己喜欢的主题色，这样就不会千篇一律了，至少在颜色上。</summary></entry><entry><title type="html">我的软件清单</title><link href="http://0.0.0.0:4000/blog/2016/03/05/my-favourit-softwares.html" rel="alternate" type="text/html" title="我的软件清单" /><published>2016-03-05T21:48:00+08:00</published><updated>2016-03-05T21:48:00+08:00</updated><id>http://0.0.0.0:4000/blog/2016/03/05/my-favourit-softwares</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2016/03/05/my-favourit-softwares.html">&lt;p&gt;整理了下自己喜欢的软件，列出了这个清单。&lt;/p&gt;
+
+&lt;p&gt;我的原则是：尽量使用免费开源软件，不使用破解软件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;本文长期更新，欢迎推荐。&lt;/strong&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;windows&quot;&gt;Windows&lt;/h2&gt;
+
+&lt;h3 id=&quot;picpick&quot;&gt;PicPick&lt;/h3&gt;
+
+&lt;p&gt;瑞士军刀一样的软件。图像编辑器，颜色选择器，颜色调色板，像素标尺，量角器，瞄准线和白板等等，堪称全能的设计工具。更重要的是，它对个人用户是完全免费的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/large/73bd9e13ly1fjle6dsbhsj204q08g0so.jpg&quot; alt=&quot;PicPick&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ngwin.com/picpick&quot;&gt;官网链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;putty&quot;&gt;PuTTY&lt;/h3&gt;
+
+&lt;p&gt;Putty 是一个免费的，Windows 32 平台下的 telnet、rlogin 和 ssh 客户端。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/large/73bd9e13ly1fjle6dbwcrj20kt0dkq38.jpg&quot; alt=&quot;PuTTY&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.putty.org/&quot;&gt;官网链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;advanced-ip-scanner&quot;&gt;Advanced ip Scanner&lt;/h3&gt;
+
+&lt;p&gt;是可以在快速扫描局域网计算机信息的网络 IP 扫描工具，对于寻找一些没有显示的设备（比如没接屏幕的树莓派）IP 特别有用。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/large/73bd9e13ly1fjle6bprd4j20jg0erq35.jpg&quot; alt=&quot;Advanced ip Scanner&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;oracle-vm-virtualbox&quot;&gt;Oracle VM VirtualBox&lt;/h3&gt;
+
+&lt;p&gt;VMware Workstation 的绝佳开源替代品，十分适合在 Windows 中虚拟 Linux 系统环境。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx4.sinaimg.cn/large/73bd9e13ly1fjle6c6dm4j20l80fhwfe.jpg&quot; alt=&quot;VirtualBox&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;官网链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cmder&quot;&gt;Cmder&lt;/h3&gt;
+
+&lt;p&gt;cmd 替代品，能最大化，标签页以及非常不错的定制性。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/large/73bd9e13ly1fjle6cxdlqj20qy0g0dmm.jpg&quot; alt=&quot;Cmder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cmder.net/&quot;&gt;官网链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;typora&quot;&gt;typora&lt;/h3&gt;
+
+&lt;p&gt;Windows 下非常好用的 Markdown 编辑器，支持多种主题，更棒的是还支持 YAML 头文件。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.typora.io/&quot;&gt;官网链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mp3tag&quot;&gt;mp3Tag&lt;/h3&gt;
+
+&lt;p&gt;MP3 文件 ID3-Tag 信息修改器。可以修改 MP3 文件中的曲名、演唱者、专集、年月、流派、注释等信息，歌曲收藏者的利器。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.mp3tag.de/&quot;&gt;官网链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;linux&quot;&gt;Linux&lt;/h2&gt;
+
+&lt;h3 id=&quot;zsh-with-oh-my-zsh&quot;&gt;zsh (with Oh My Zsh)&lt;/h3&gt;
+
+&lt;p&gt;比 bash 更好用的 shell。更强的可配置性，更强的 tab 补全，还附带 git 支持。再加上&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh&quot;&gt;Oh My Zsh&lt;/a&gt;的存在，zsh 已经相当易用了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx2.sinaimg.cn/large/73bd9e13ly1fjle6b9zi3j20nm0h0q5k.jpg&quot; alt=&quot;zsh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh&quot;&gt;Oh My Zsh 项目链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tmux&quot;&gt;Tmux&lt;/h3&gt;
+
+&lt;p&gt;SSH 最佳伴侣。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tmux.github.io/&quot;&gt;官网链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;graphviz&quot;&gt;Graphviz&lt;/h3&gt;
+
+&lt;p&gt;“所想即所得”的画图工具，由大名鼎鼎的贝尔实验室开发。简单的来讲就是一款使用脚本语言来进行绘图的工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/large/73bd9e13ly1fjle6aocfqj20sg0g8tdu.jpg&quot; alt=&quot;Graphviz&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.graphviz.org/&quot;&gt;官网链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/DOT语言&quot;&gt;DOT脚本语言&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;grapheasy&quot;&gt;Graph::Easy&lt;/h3&gt;
+
+&lt;p&gt;跟 Graphviz 类似的软件。用它可以很方便的绘制出字符版的流程图，很适合代码注释。当然，它的功能远不止这些。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;+------+     +--------+      .............     +---------+
+| Bonn | --&amp;gt; | Berlin |  --&amp;gt; : Frankfurt : --&amp;gt; | Dresden |
++------+     +--------+      .............     +---------+
+               :
+               :
+               v
+             +---------+     +---------+
+             | Potsdam | ==&amp;gt; | Cottbus |
+             +---------+     +---------+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ironcamel/Graph-Easy&quot;&gt;GitHub 项目页&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;coding&quot;&gt;Coding&lt;/h2&gt;
+
+&lt;h3 id=&quot;visual-studio-code&quot;&gt;Visual Studio Code&lt;/h3&gt;
+
+&lt;p&gt;微软出品，和 atom 一样基于 electron，但比 atom 流畅。页面非常酷，插件也已经非常全面了，越来越多的前端工程师开始转向它了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;官网链接&lt;/a&gt;&lt;/p&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="Tools" /><summary type="html">整理了下自己喜欢的软件，列出了这个清单。
+
+我的原则是：尽量使用免费开源软件，不使用破解软件。
+
+本文长期更新，欢迎推荐。</summary></entry><entry><title type="html">用 HTML5 实现星战的开篇字幕</title><link href="http://0.0.0.0:4000/blog/2016/02/17/may-the-force-be-with-you.html" rel="alternate" type="text/html" title="用 HTML5 实现星战的开篇字幕" /><published>2016-02-17T21:30:00+08:00</published><updated>2016-02-17T21:30:00+08:00</updated><id>http://0.0.0.0:4000/blog/2016/02/17/may-the-force-be-with-you</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2016/02/17/may-the-force-be-with-you.html">&lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/large/73bd9e13ly1fjldo8obm7j21kw16oaj8.jpg&quot; alt=&quot;the-force-awake&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;去年慕名去电影院看了星战的最新作&lt;a href=&quot;https://movie.douban.com/subject/20326665/&quot;&gt;《原力觉醒》&lt;/a&gt;。故事简单，不过里面的场景和人物（非常喜欢汉·索洛，可惜了）特别有趣。光剑的吱吱声，武士的服饰，海岛上的拜师（卢克终于出现了）……和中土世界（You walk a lonely road, Oh! How far you are from home…）不同，星战世界处处展现出了一种神秘的东方哲学。&lt;/p&gt;
+
+&lt;p&gt;看完了电影后，我就把星战的整个系列看了一遍。星战，在每部电影的开头都会有一段经典的字幕动画，黄色的文字呈梯形向前方流动，渐渐消失，背景则是漆黑的宇宙星空。简单，但令人印象深刻。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;昨天下午在查找资料的时候，无意中看到了一篇&lt;a href=&quot;http://www.w3school.com.cn/css3/css3_3dtransform.asp&quot;&gt;CSS3 3D 转换的介绍&lt;/a&gt;，胡乱看到了这张图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/large/73bd9e13ly1fjldo82ostj207c06wglf.jpg&quot; alt=&quot;css3_3dtransform&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;等等，这不是星战的字幕吗？于是抱着好玩的心态，写出了&lt;a href=&quot;/blog/projects/star-war.html&quot;&gt;这个 H5 动画&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;准备工作&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;文本编辑器&lt;/li&gt;
+  &lt;li&gt;支持 H5 的浏览器&lt;/li&gt;
+  &lt;li&gt;JQuery&lt;/li&gt;
+  &lt;li&gt;乐事薯片&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;首先，我们来构建一个跟浏览器窗口大小一样的黑色画布 &lt;code class=&quot;highlighter-rouge&quot;&gt;div.paper&lt;/code&gt;。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;paper&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;充满整个窗口……&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.paper&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;查看一下效果，整个界面惨白一片……&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/large/73bd9e13ly1fjldo7inddj20l10hp74p.jpg&quot; alt=&quot;惨白的界面&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/large/73bd9e13ly1fjldgnth3cj206404ja9y.jpg&quot; alt=&quot;AreYouKiddingMe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;查看界面元素可以发现，此时 &lt;code class=&quot;highlighter-rouge&quot;&gt;div.paper&lt;/code&gt; 的 hight 为 0，并没有像我们写的 &lt;code class=&quot;highlighter-rouge&quot;&gt;height: 100%&lt;/code&gt; 那样等于窗口的高度。为什么呢？&lt;/p&gt;
+
+&lt;p&gt;我们知道这里的 100% 指的是相对父级元素高度的 100%，&lt;code class=&quot;highlighter-rouge&quot;&gt;div.paper&lt;/code&gt; 的父级是 &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;，而此时 &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; 的高度也为 0，于是我们加上&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;查看一下效果，整个界面依旧惨白一片……&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/large/73bd9e13ly1fjldgotoe6j208706oglt.jpg&quot; alt=&quot;fuuuuuuuu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;查看界面元素可以发现，此时 &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; 的高度依然为 0，再来看上面的 HTML 代码，原来 &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; 上面还有 &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt; 元素，于是我们加上：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;html {
+   height: 100%;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;啧啧，大功造成。然后去除掉 &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; 的内边距（padding），再来看一下效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/large/73bd9e13ly1fjldo77qxgj20ki0e2q37.jpg&quot; alt=&quot;完美的画布&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PERFECT&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/large/73bd9e13ly1fjldgn3ycej208y08cwez.jpg&quot; alt=&quot;完美&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;类容文字元素&lt;/h2&gt;
+
+&lt;p&gt;我们加上一个 &lt;code class=&quot;highlighter-rouge&quot;&gt;div#content&lt;/code&gt; 元素作为文字层。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;paper&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A long time ago, in a galaxy far, far away...&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Episode IV&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A NEW HOPE&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon,the DEATH STAR,an armored space station with enough power to destroy an entire planet.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Pursued by the Empire's sinister agents,Princess Leia races home aboard her starship,custodian of the stolen plans that can save her people and restore freedom galaxy...&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;设置字体、字号、颜色和文字居中。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;lucida grande&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;lucida sans unicode&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lucida&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;helvetica&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;Hiragino Sans GB&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;Microsoft YaHei&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;WenQuanYi Micro Hei&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ffda00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;4em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;来看看效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx2.sinaimg.cn/large/73bd9e13ly1fjldo6rdlwj20ki0e2q3h.jpg&quot; alt=&quot;带白框的文字&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;噗……怎么上面出现了一个白框啊。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/large/73bd9e13ly1fjldgmnkamj20c809574j.jpg&quot; alt=&quot;我需要冷静&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;冷静下来，查看元素，原来上面之所以会出现一个白框，是因为“A long time ago”这一个段落 &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; 的外边距（margin）穿过了 &lt;code class=&quot;highlighter-rouge&quot;&gt;div.paper&lt;/code&gt;，到了 &lt;code class=&quot;highlighter-rouge&quot;&gt;div.paper&lt;/code&gt; 的上方, 这种规则称为&lt;strong&gt;&lt;a href=&quot;http://www.cnblogs.com/snowinmay/archive/2013/04/28/3048997.html&quot;&gt;外边距叠加&lt;/a&gt;&lt;/strong&gt;，由于外边距是透明的，因此它呈现出了父元素 &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; 的白色。&lt;/p&gt;
+
+&lt;p&gt;解决方法很简单。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;div.paper&lt;/code&gt; 内边框，使得子元素的外边距（margin）无法穿透。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; 的背景色。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这里，我使用方法二。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;添加滚动条&lt;/h3&gt;
+
+&lt;p&gt;设置 &lt;code class=&quot;highlighter-rouge&quot;&gt;content&lt;/code&gt; 的样式、高度、宽度、居中当然还有滚动条。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#content&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;box-sizing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;border-box&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;80%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;看看效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx4.sinaimg.cn/large/73bd9e13ly1fjldo64ekqj211y0ijjrn.jpg&quot; alt=&quot;平面初步效果&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;哎哟，不错哦。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx4.sinaimg.cn/large/73bd9e13ly1fjldvedp06j207p0693zd.jpg&quot; alt=&quot;good&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;css33d&quot;&gt;CSS3的3D转换&lt;/h2&gt;
+
+&lt;p&gt;最关键的部分到了，根据 w3school 的&lt;a href=&quot;http://www.w3school.com.cn/tiy/t.asp?f=css3_perspective1&quot;&gt;这个示例&lt;/a&gt;，实现星战那样的 3D 字幕涉及到 perspective 和 rotateX 属性。&lt;/p&gt;
+
+&lt;p&gt;照葫芦画瓢, 我们给 &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;div.paper&lt;/code&gt; 添加 3D 变换：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;/*省略*/&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;perspective&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;-webkit-perspective&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.paper&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;/*省略*/&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rotateX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;60deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;-webkit-transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rotateX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;60deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;看看效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx4.sinaimg.cn/large/73bd9e13ly1fjldo5mkrsj20kv0e3wf3.jpg&quot; alt=&quot;3D变换1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;good。&lt;/p&gt;
+
+&lt;h2 id=&quot;jquery&quot;&gt;jQuery动画&lt;/h2&gt;
+
+&lt;p&gt;下面我们来一起加上动画，让字幕从开始滚动到结尾。&lt;/p&gt;
+
+&lt;p&gt;虽然 CSS3 有动画的功能，但是我还是选择用 jQuery 来做动画。（懒……）&lt;/p&gt;
+
+&lt;p&gt;jQuery 动画是用 &lt;code class=&quot;highlighter-rouge&quot;&gt;animate&lt;/code&gt; 函数来完成的。只需要给出动画结束后&lt;strong&gt;某属性&lt;/strong&gt;的值和动画时间（非必需）等参数，即可创建针对该参数的动画，参考&lt;a href=&quot;http://www.w3school.com.cn/jquery/jquery_animate.asp&quot;&gt;w3school 关于 JQuery 动画的介绍&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;这里涉及到两个属性，&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop&quot;&gt;scrollTop&lt;/a&gt;和&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight&quot;&gt;scrollHeight&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;scrollTop 可以控制滚动条的滚动高度，scrollHeight 可以得到滚动内容的实际高度。具体可以参考上面的链接，讲的很详细。&lt;/p&gt;
+
+&lt;p&gt;知道了 &lt;code class=&quot;highlighter-rouge&quot;&gt;animate&lt;/code&gt; 函数和必要时属性后，很快的写下了代码。&lt;code class=&quot;highlighter-rouge&quot;&gt;scrollTop&lt;/code&gt; 属性从开始的 0，经过 &lt;code class=&quot;highlighter-rouge&quot;&gt;scrollHeight * 20&lt;/code&gt; 毫秒，匀速的变为了 &lt;code class=&quot;highlighter-rouge&quot;&gt;scrollHeight&lt;/code&gt;。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scrollHeight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;#content&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scrollHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scrollTop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;#content&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scrollTop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;#content&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;animate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;scrollTop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scrollHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scrollHeight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;linear&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;最后，隐藏滚动条。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#content&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;/*省略*/&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/large/73bd9e13ly1fjldo56n7jj211y0ijtc8.jpg&quot; alt=&quot;3D变换2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;嗯，大功告成。不过还是有些问题，一开始应该是没有文字的。我们可以在 &lt;code class=&quot;highlighter-rouge&quot;&gt;div#content&lt;/code&gt; 开头加上一个空白区。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;empty-content top&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A long time ago, in a galaxy far, far away...&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    ...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.empty-content&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;box-sizing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;border-box&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;这样就差不多了。当然我们还可以加图片背景，加背景音乐。这里就不做了……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/blog/projects/star-war.html&quot;&gt;动画演示&lt;/a&gt; |
+&lt;a href=&quot;https://github.com/kitian616/blog/blob/gh-pages/projects/star-war.html&quot;&gt;源码&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/large/73bd9e13ly1fjldo4fv1nj20b404qglq.jpg&quot; alt=&quot;Yoda&quot; /&gt;&lt;/p&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="FrontEnd" /><summary type="html">去年慕名去电影院看了星战的最新作《原力觉醒》。故事简单，不过里面的场景和人物（非常喜欢汉·索洛，可惜了）特别有趣。光剑的吱吱声，武士的服饰，海岛上的拜师（卢克终于出现了）……和中土世界（You walk a lonely road, Oh! How far you are from home…）不同，星战世界处处展现出了一种神秘的东方哲学。
+
+看完了电影后，我就把星战的整个系列看了一遍。星战，在每部电影的开头都会有一段经典的字幕动画，黄色的文字呈梯形向前方流动，渐渐消失，背景则是漆黑的宇宙星空。简单，但令人印象深刻。</summary></entry><entry><title type="html">新的一年，新的博客</title><link href="http://0.0.0.0:4000/blog/2016/01/02/new-year-new-blog.html" rel="alternate" type="text/html" title="新的一年，新的博客" /><published>2016-01-02T23:30:00+08:00</published><updated>2016-01-02T23:30:00+08:00</updated><id>http://0.0.0.0:4000/blog/2016/01/02/new-year-new-blog</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2016/01/02/new-year-new-blog.html">&lt;p&gt;去年使用 Pelican 搭建了我的第一个个人站点，发博文(虽然只有 5 篇，惭愧)，选主题，加功能……总之我很享受这个过程。搭建站点，就像是在装修一个房子。一开始空空如也，到后来有了沙发，有了餐桌，有了床……就这样，一个空空的房子开始有了你的印记，慢慢的你对它产生了感情，把它称作为“家”。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;但是，其实我一直有个遗憾，我没有找到一个让我满意的主题。就像是房子装修，你可以使用别人设计好的方案，你也可以自己设计方案，或者与设计师合作设计方案。总之，在博客搭建好以来，我就很想自己设计一个主题。但是首先，我不会前端；其次，我不懂设计。直到有一天，我无意中发现了&lt;a href=&quot;http://zhangwenli.com/blog/&quot;&gt;这个博客&lt;/a&gt;，真的是让我眼前一亮，作为一个想成为&lt;strong&gt;全栈网络工程师&lt;/strong&gt;的我，前端是必须要了解和掌握的，于是我就开始踏上了我的前端学习之路。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;前端学习&lt;/h2&gt;
+
+&lt;p&gt;因为平时白天要实习，大部分都是在晚上 8：00 - 11：00 和周末弄的。我从去年 10 月初开始学习 JavaScript，写了一篇&lt;a href=&quot;/blog/2015/11/02/class-in-JavaScript.html&quot;&gt;关于js的博文&lt;/a&gt;。一个月之后，我开始一边写网站一边学习 HTML（HTML5）和 CSS（CSS3, SASS）。在此期间共看了 5 本书（后 3 本只是随便翻了翻）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/19933548/&quot;&gt;JavaScript编程精解&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/25756111/&quot;&gt;HTML5经典实例&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/26241601/&quot;&gt;响应式Web设计全流程解析&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/25966259/&quot;&gt;CSS高效开发实战—CSS 3、LESS、SASS、Bootstrap、Foundation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/25730129/&quot;&gt;HTML5和CSS3快速参考&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;同时也参考了一些网上的资料和文档，当然还包括一些网站的代码和设计。&lt;/p&gt;
+
+&lt;p&gt;总之，前端上手很容易，然而想要精通很难，浏览器兼容、动画、访问速度优化、搜索引擎优化……问题太多了。而且前端也是一个变化相对快速的领域，新的规范，新的工具，新的设计模式…当然，这也说明了前端领域的活跃性。我一直都坚信，未来 web 应用会更加的流行。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;响应式设计&lt;/h2&gt;
+
+&lt;p&gt;响应式设计简单的说就是网页能够自动适应不同的屏幕尺寸(手机、平板、电脑)。跟扁平化设计一样，它们都是智能手机和平板电脑普及的产物，为了应对当前多样性的设备而出现的。当然，响应式并不局限于网页，安卓应用、Windows 10 的 UWP 应用，都或多或少的带有响应式的特性。&lt;/p&gt;
+
+&lt;p&gt;当然，响应式并不是万能的。一些布局复杂的网站，根据不同的设备写不同的 CSS 是更好的方案（多套 CSS）。一来更节约带宽，二来可以减小一些复杂度。而像博客这样布局简单的网站，响应式反而更方便，因为你只需维护一套 CSS 即可。&lt;/p&gt;
+
+&lt;p&gt;关于响应式的实现，网上有很多不错的介绍，比如&lt;a href=&quot;http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html&quot;&gt;这篇阮一峰的博文&lt;/a&gt;和&lt;a href=&quot;http://www.w3cplus.com/css3/responsive-design-in-3-steps&quot;&gt;这篇w3cplus网站上的文章&lt;/a&gt;，这里不再累述。其实我主要是想分享一下我的设计思路。&lt;/p&gt;
+
+&lt;p&gt;事实证明，设计是一个十分消耗时间的事情，你需要不断的调整，不断的修改。这个网站就是经过了 5 次大的布局调整和很多次局部布局修改才有了现在的模样。&lt;/p&gt;
+
+&lt;p&gt;响应式网页的布局是通过网页容器的宽度来划分的，本网站的划分方式为：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;手机：0~600px&lt;/li&gt;
+  &lt;li&gt;平板：600~1000px&lt;/li&gt;
+  &lt;li&gt;电脑：1000px 以上&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一般来说，一个网页一般由网页标题（title）、导航（nav）、侧边栏（aside）、主要类容（main）、页脚（footer）组成。&lt;/p&gt;
+
+&lt;p&gt;当容器宽度很宽时（比如电脑），往往竖直方向空间就很有限，我们可以把一些附属信息以侧边栏的形式表现出来。而当容器宽度有限的情况（手机是典型），侧边栏就显得非常不适合了，此时通常的做法就是将信息从上到下顺序布局，下面来看一下我的设计。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;电脑布局&lt;/h3&gt;
+
+&lt;p&gt;在电脑布局中，我特地把标题（title）、导航（nav）和个人信息（aside）放在了左边，并且在主要类容右边留了一些空白，这样显得文章更居中一些。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww4.sinaimg.cn/large/73bd9e13jw1ezmftjyhwkj21kw0uk4bo.jpg&quot; alt=&quot;电脑布局&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;平板布局&lt;/h3&gt;
+
+&lt;p&gt;对于这种宽度不足的情况，我把标题、导航放在了上方，而把个人信息放在了页脚。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww1.sinaimg.cn/large/73bd9e13jw1ezmftf9ijyj218g1sxwwy.jpg&quot; alt=&quot;平板布局&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;手机布局&lt;/h3&gt;
+
+&lt;p&gt;此时的宽度只能放得下标题了，导航隐藏了起来，点击最右的按钮即可显示导航。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww4.sinaimg.cn/large/73bd9e13jw1ezmfsxyscpj20zk0tc43s.jpg&quot; alt=&quot;手机布局&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;总之，这是一种很常见的响应式布局方法，参考了&lt;a href=&quot;http://www.jianshu.com/&quot;&gt;简书&lt;/a&gt;的布局。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;新博客&lt;/h2&gt;
+
+&lt;p&gt;为了尽可能的学习到最新的技术，我对这个网站做了如下几个设定：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;该网站仅支持现代浏览器（IE10 及以上、Edge、Chrome、Safari、Firefox）&lt;/li&gt;
+  &lt;li&gt;尽量使用 HTML5 的语义标签&lt;/li&gt;
+  &lt;li&gt;使用 CSS3 的新特性，包括阴影和过渡&lt;/li&gt;
+  &lt;li&gt;使用 SVG（矢量图），该网站的所有图标和 logo 都是矢量图&lt;/li&gt;
+  &lt;li&gt;除了 jQuery 和必要的插件外, 不使用任何第三方的模板（自己造轮子）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;同时博客平台也从以往的 Pelican 迁移到了 &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;，因为后者跟 GitHub 结合得更紧密一些。于此同时博客也从 GitCafe 重新迁回到了 GitHub（百度收录什么的去死吧），正所谓人生贵在折腾。&lt;/p&gt;
+
+&lt;p&gt;该博客会是我的一个长期项目，以后我会继续优化该博客的样式和功能。未来会把它作为一个主题发布出去，让更多的人能够免费的使用和修改我的主题。&lt;/p&gt;
+
+&lt;p&gt;最后祝大家新年快乐! :tada: :tada: :tada:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wx2.sinaimg.cn/large/73bd9e13ly1fjl8wkl8opj20r10ostlp.jpg&quot; alt=&quot;happy-2016&quot; /&gt;&lt;/p&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="blog" /><category term="FrontEnd" /><summary type="html">去年使用 Pelican 搭建了我的第一个个人站点，发博文(虽然只有 5 篇，惭愧)，选主题，加功能……总之我很享受这个过程。搭建站点，就像是在装修一个房子。一开始空空如也，到后来有了沙发，有了餐桌，有了床……就这样，一个空空的房子开始有了你的印记，慢慢的你对它产生了感情，把它称作为“家”。</summary></entry><entry><title type="html">使用命令来编译、运行、打包 Java 程序（java, javac, jar）</title><link href="http://0.0.0.0:4000/blog/2015/11/10/how-to-use-java-javac-jar-commands.html" rel="alternate" type="text/html" title="使用命令来编译、运行、打包 Java 程序（java, javac, jar）" /><published>2015-11-10T23:03:00+08:00</published><updated>2015-11-10T23:03:00+08:00</updated><id>http://0.0.0.0:4000/blog/2015/11/10/how-to-use-java-javac-jar-commands</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2015/11/10/how-to-use-java-javac-jar-commands.html">&lt;p&gt;前一阵子需要把一个原本在 Windows 环境下的 Java Eclipse 项目放到 Linux 环境下测试，由于不想在 Linux 虚拟机中装 Eclipse，于是索性打算用命令来运行测试该项目。结果花了半小时，终于把项目跑起来了。 :sweat: :sweat: :sweat:
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;事后实验总结了一下，于是有了这篇博文。&lt;/p&gt;
+
+&lt;h2 id=&quot;package--java-&quot;&gt;带 package 包名 Java 程序的编译和运行&lt;/h2&gt;
+
+&lt;p&gt;首先我们来新建一个测试类 HelloJava。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kn&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;thomastian&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloJava&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[])&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, Java&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;直接编译（不推荐）&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;javac&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; HelloJava.java&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;带目录结构的编译&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;javac&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; -d . HelloJava.java&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww2.sinaimg.cn/large/73bd9e13jw1exx0q5nnytj207402dt8m.jpg&quot; alt=&quot;带选项的 javac&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;加上了 -d 选项后在当前目录下建立了对应包层次的目录结构（如上图）。如果没有加 -d，则在当前目录下生成 class 文件，需手动建立目录结构。&lt;/p&gt;
+
+&lt;p&gt;在运行时，需要加上主类对应的目录层次，可以采用包形式“.”，或者目录的形式“/”，这样 JVM 就会根据目录层次来查找对应的 class 文件并执行。&lt;strong&gt;执行目录必须是包顶级层次的上级目录&lt;/strong&gt;（在这里就是 com 的上级目录“~”了）。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; com.thomastian.test.HelloJava
+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; com/thomastian/test/HelloJava&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;javajar&quot;&gt;Java的归档（jar）&lt;/h2&gt;
+
+&lt;p&gt;Java 使用 jar 命令打包（创建归档文件）。（jar 命令的选项跟 tar 命令是相同的，毕竟都是打包归档类的命令。关于 tar 命令可以看&lt;a href=&quot;http://www.cnblogs.com/kitian616/p/4522456.html&quot;&gt;这篇博客园文章&lt;/a&gt;）&lt;/p&gt;
+
+&lt;p&gt;这里前面的“HelloJava.jar”对应包的名称，后面的“com”对应的包的根目录。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;jar&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; cvf HelloJava.jar com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;运行 jar：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; -jar HelloJava.jar&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;此时会提示错误：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww1.sinaimg.cn/large/73bd9e13jw1exwbudlmsoj20bn014q2t.jpg&quot; alt=&quot;错误提示&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;用解压软件打开 jar 包文件，可以看到里面有一个 MAINFEST.MF 文件。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww3.sinaimg.cn/large/73bd9e13jw1exwbx4yt7jj20cy02hjr9.jpg&quot; alt=&quot;MAINFEST.MF 文件&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Manifest-Version: 1.0
+Created-By: 1.8.0_65 (Oracle Corporation)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这是一个在归档时自动生成的文件，它是 JAR 档案文件中的特殊文件，用来定义扩展或档案打包相关数据。&lt;/p&gt;
+
+&lt;p&gt;如果 JAR 文件被用作可执行的应用程序，那么应用程序需要告诉 Java 虚拟机入口点位置，任意包含 &lt;code class=&quot;highlighter-rouge&quot;&gt;public static void main(String[] args)&lt;/code&gt; 方法的类即为入口点。该信息由文件头 Main-Class 提供，基本格式如下：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Main-Class: classname
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;以上内容摘自&lt;a href=&quot;https://zh.wikipedia.org/wiki/Manifest%E8%B5%84%E6%BA%90%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6&quot;&gt;维基百科条目：Manifest 资源配置文件&lt;/a&gt;，详细讲解了 Manifest 文件的用法以及相关资料。&lt;/p&gt;
+
+&lt;p&gt;接下来我们创建一个文本文件 Mainfest（随便什么名字都行），在文件中添加 Main-Class 值，注意冒号后面有空格，不然会报错，然后保存。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Manifest-Version: 1.0
+Created-By: 1.8.0_65 (Oracle Corporation)
+Main-Class: com.thomastian.test.HelloJava
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在 jar 命令加上 f 选项，即可指定自定义的 Mainfest 文件，在包名的后面加上刚才创建的文件名“mainfest”。在运行完命令时，mainfest 文件的内容就会赋给 jar 包中的 MAINFEST.MF 文件，完成了 MAINFEST 文件的自定义。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;jar&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; cvfm HelloJava.jar mainfest com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww2.sinaimg.cn/large/73bd9e13jw1exwbuehk88j20km05j754.jpg&quot; alt=&quot;带 f 选项的 jar 命令&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;生成 jar 包后，再执行 &lt;code class=&quot;highlighter-rouge&quot;&gt;java -jar HelloJava.jar&lt;/code&gt; 命令即可成功运行。在设定了 jar 的文件关联后甚至可以双击运行，十分方便。&lt;/p&gt;
+
+&lt;p&gt;上面说过，被用作可执行的应用程序的 jar 包才需要指定 Main-Class，有些包是供其它程序调用的类库，并没有 main 方法，下文的 ImportClass 类就是这样。&lt;/p&gt;
+
+&lt;h2 id=&quot;jar&quot;&gt;jar包的引用&lt;/h2&gt;
+
+&lt;p&gt;上文讲的是如何创建 jar 包，接下来我们来看看包的引用。&lt;/p&gt;
+
+&lt;p&gt;首先我们创建一个 ImportClass 类，用于引用。注意待引用的类必须为 public 类型，否则对外是不可见的，这样也就无法引用了。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kn&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;thomastian&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ImportClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;oh, my import class!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;按照上文的方法将其编译为 jar 包。由于该文件没有 main 方法，所以也就无需指定 Main-Class 了。&lt;/p&gt;
+
+&lt;p&gt;修改前面的 HelloJava 类，引用并调用上面的 ImportClass 类。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kn&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;thomastian&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;blog.thomastian.test.ImportClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloJava&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[])&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;ImportClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ic&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ImportClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;ic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;编译：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;javac&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; -d . -cp lib/ImportClass.jar  HelloJava.java&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;运行：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; -cp .:lib/ImportClass.jar com.thomastian.test.HelloJava&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww1.sinaimg.cn/large/73bd9e13jw1exwbufbia7j20eg012t8k.jpg&quot; alt=&quot;运行结果&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;多个路径之间用“:”（Linux） / “;”（Windows）隔开（跟系统环境变量的写法相同）。在编译的时候 -cp 路径可以不包含当前路劲，但是在运行的时候必须要加上代表当前路径的“.”，具体可参考&lt;a href=&quot;https://stackoverflow.com/questions/11459664/how-to-add-multiple-jar-files-in-classpath-in-linux?newreg=4df9dca55f4a4557a705a3fd90625f28&quot;&gt;这篇stackoverflow问答&lt;/a&gt;。&lt;/p&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="Java" /><category term="Linux" /><category term="bash" /><summary type="html">前一阵子需要把一个原本在 Windows 环境下的 Java Eclipse 项目放到 Linux 环境下测试，由于不想在 Linux 虚拟机中装 Eclipse，于是索性打算用命令来运行测试该项目。结果花了半小时，终于把项目跑起来了。 :sweat: :sweat: :sweat:</summary></entry><entry><title type="html">JavaScript 的 prototype（原型）和类</title><link href="http://0.0.0.0:4000/blog/2015/11/02/class-in-JavaScript.html" rel="alternate" type="text/html" title="JavaScript 的 prototype（原型）和类" /><published>2015-11-02T23:00:00+08:00</published><updated>2015-11-02T23:00:00+08:00</updated><id>http://0.0.0.0:4000/blog/2015/11/02/class-in-JavaScript</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2015/11/02/class-in-JavaScript.html">&lt;p&gt;最近在学习 JavaScript。它是一个让我倍感惊喜的语言，它不仅打开我函数式语言学习的大门，而且它关于原型的机制也是让我眼前一亮——原来面向对象还可以这么弄。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;JavaScript 中的所有事物都是对象：字符串、数值、数组、函数。这一点跟 Java、Python 这些面向对象的语言没有太大区别。但是 JavaScript 基于原型（prototype）的继承机制，使得 JavaScript 在实现面向对象编程时与 Java 这样的语言有很大的不同。&lt;/p&gt;
+
+&lt;p&gt;一般的面向对象语言通常是使用 Class 关键字来定义类的，但是很遗憾，JavaScript（ES5） 并没有像 Class 这样的关键字。那么 JavaScript 是怎样定义类和对象的呢?&lt;/p&gt;
+
+&lt;h2 id=&quot;javascript&quot;&gt;Javascript的对象&lt;/h2&gt;
+
+&lt;p&gt;前面我们说过 JavaScript 中的所有事物都是对象，那么我们可以这样创建对象。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;typeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;//object&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;我们定义了一个叫 lilei 的字典，我们可以看到他确实是一个对象。&lt;/p&gt;
+
+&lt;p&gt;接下来，我们给 lilei 添加属性 name 和 sex，表示一个叫李雷的男性。再添加 speak 方法来表示李雷说话的动作。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;李雷&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;M&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;speak&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, I'm Li Lei!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//_MAIN&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//李雷&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;speak&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Hi, I'm Li Lei!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;这样，我们的 lilei 对象既有了名字，也有了性别，还学会了说话。&lt;/p&gt;
+
+&lt;p&gt;接下来我们还想添加一个对象来代表韩梅梅，但是问题来了，我们不得不像 lilei 对象一样添加属性，方法，这些代码基本都是相同的。很明显，按照面向对象的思想，我们应该创建一个 People 类来代表抽象的人，再来通过人这个类来生成具体的对象，JavaScript 又是如何创建类的呢？&lt;/p&gt;
+
+&lt;h2 id=&quot;javascript-1&quot;&gt;Javascript的类&lt;/h2&gt;
+
+&lt;p&gt;首先从 Prototype（原型）说起。&lt;/p&gt;
+
+&lt;p&gt;下面的示例代码中，我创建了一个 Person 函数来充当构造函数，并且向函数的 prototype 中加入了 name 和 sex 属性以及一个 speak 函数。最后使用 new 关键字创建了 hanmeimei 对象。其实这个代码还不完美，这里仅仅用来说明原型，后面还会改进。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;韩梅梅&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;F&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;speak&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//_MAIN&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hanmeimei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hanmeimei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//韩梅梅&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;hanmeimei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;speak&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, I'm Han Meimei!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Hi, I'm Han Meimei!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;这种使用 new 关键字创建对象的方式在 JavaScript 中使用非常广泛，说来也怪，在一个没有 Class 关键字的语言中居然有创建对象的 new 关键字。&lt;/p&gt;
+
+&lt;h3 id=&quot;prototype--proto-&quot;&gt;prototype 和 __proto__ 属性&lt;/h3&gt;
+
+&lt;p&gt;看到这里大家可能会很困惑，这个 prototype 究竟是如何将属性和函数传递给对象的呢？多说无益，直接上图。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;图中用椭圆表示普通对象，用圆角矩形来表示函数对象&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww2.sinaimg.cn/large/73bd9e13jw1expb5r0bn4j20eo0bedg9.jpg&quot; alt=&quot;模型图&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;之前说过 JavaScript 中的所有事物都是对象，Person 函数也是对象，是普通对象的扩充。JavaScript 的函数对象有一个特殊的 prototype 属性，它指向了一个普通对象。一般的普通对象有一个 __proto__ 属性，当然函数对象也由该属性。&lt;/p&gt;
+
+&lt;p&gt;当使用 new 关键字创建新对象的时候，发生了三件事情：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;一个叫 hanmeimei 的空对象被创建，首先 hanmeimei 与{}一致；&lt;/li&gt;
+  &lt;li&gt;将 hanmeimei 的 __proto__ 属性指向 Person 的原型属性，constructor 属性指向 Person 函数对象；&lt;/li&gt;
+  &lt;li&gt;Person 方法被执行。当然此时 Person 函数的方法是空的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这样通过构造函数生成的对象就通过 __proto__ 属性与构造函数的原型关联了起来。当我们调用 hanmeimei 的 speak 函数时，浏览器会首先在 hanmeimei 对象中查找 speak 函数，找不到，然后再到 __proto__ 所指向的对象中查找，找到了，然后调用函数。&lt;/p&gt;
+
+&lt;p&gt;__proto__ 可以看成一种继承关系， __proto__ 所指向的对象可以看成是该对象的父对象。或者说， __proto__ 所指向的对象相当于是一个模板，而该对象是对这个模板的修改和扩充。&lt;/p&gt;
+
+&lt;h2 id=&quot;javascript--this-&quot;&gt;Javascript 中的 this 变量&lt;/h2&gt;
+
+&lt;p&gt;前面说过，上面示例代码是不完美的。我们想一下，在上一个示例中，我们每创建一个对象，对象的名称都叫“韩梅梅”，这显然是不合适的。&lt;/p&gt;
+
+&lt;p&gt;我们可以这么写。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;……&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;但是仔细思考，这也有问题，每次使用 new 构造对象时，都会对原型中的属性赋值。在我们构建“李雷”时，“人类”的名字是“李雷”，而在我们构建“韩梅梅”时，“人类”的名字又变成了“韩梅梅”。人类（原型）的名字不断的改变，这显然也是不太对的。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;李雷&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;M&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hanmeimei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;韩梅梅&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;F&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;我们可以使用 this 变量来解决这个问题。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;speak&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//_MAIN&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;李雷&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;M&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//李雷&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;lilei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;speak&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, I'm Li Lei!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Hi, I'm Li Lei!&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hanmeimei&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;韩梅梅&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;F&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hanmeimei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//韩梅梅&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;hanmeimei&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;speak&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, I'm Han Meimei!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Hi, I'm Han Meimei!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;在这个示例中，当我们使用 new 关键字创建新对象的最后，Person 方法执行，将新对象 lilei 作为 this 引用传递，于是该对象就添加上了 name 和 sex 属性。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww2.sinaimg.cn/large/73bd9e13jw1expb5qrg0ej20df0c7t95.jpg&quot; alt=&quot;改进的模型图&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;此时，name 和 sex 属性并不在 Person.prototype 中，而是 Person 构造函数为每个生成的对象添加了 name 和 sex 属性。这些属性是完全属于生成的对象的，构造函数只是执行了“添加属性”的指令。&lt;/p&gt;
+
+&lt;p&gt;这样，每个人都有名字和性别属性（为了简单起见，就姑且这么认为吧），然而每个人的名字的值和性别的值是不一样的。人的名字和性别属于他/她自己，人类只负责给每个人起名和确定性别。&lt;/p&gt;
+
+&lt;p&gt;这样这个 Person 类就比较合乎逻辑了，当然还有其他的方法来构建类，这里也可以看出 JavaScript 的灵活性。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;附加参考&lt;/h2&gt;
+
+&lt;p&gt;上面的示意图，为了突出重点，其实省略了不少的细节。这里附上完整的结构示意图，作为参考。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww1.sinaimg.cn/large/73bd9e13jw1expb5rhnvgj20j00n93zx.jpg&quot; alt=&quot;总示意图&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;其实，name、sex 和 speak 函数也是对象，它们同样有 prototype 和 constructor 属性，图中并没有画出。lilei 对象跟 hanmeimei 相同，故省略。&lt;/p&gt;
+
+&lt;p&gt;本博文的示意图都是我经过测试得到的，网上的资料都有一些问题和矛盾，所以就自己动手了。这个过程虽然费时但确实很有意义，有时间的朋友可以&lt;a href=&quot;https://github.com/kitian616/practice_workspace/blob/master/javascript/js/proto_test.js&quot;&gt;下载测试代码&lt;/a&gt;研究一下 :-)&lt;/p&gt;
+
+&lt;p&gt;我使用的是 Google Chrome（version: 46），不同的浏览器结果可能会有所不同。&lt;/p&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="JavaScrip" /><summary type="html">最近在学习 JavaScript。它是一个让我倍感惊喜的语言，它不仅打开我函数式语言学习的大门，而且它关于原型的机制也是让我眼前一亮——原来面向对象还可以这么弄。</summary></entry><entry><title type="html">终于有自己的域名了</title><link href="http://0.0.0.0:4000/blog/2015/10/26/my-personal-domain.html" rel="alternate" type="text/html" title="终于有自己的域名了" /><published>2015-10-26T23:00:00+08:00</published><updated>2015-10-26T23:00:00+08:00</updated><id>http://0.0.0.0:4000/blog/2015/10/26/my-personal-domain</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2015/10/26/my-personal-domain.html">&lt;p&gt;今天折腾了半天，终于用上了自己的域名 thomastian.com（当前的域名是&lt;a href=&quot;https://tianqi.name&quot;&gt;tianqi.name&lt;/a&gt;）。其实本来想注册中文拼音 tianqi 的，然而这个名字太火了，所有的域名都被注册了，所以只好用英文网名了。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;流程&lt;/h2&gt;
+
+&lt;p&gt;我在&lt;a href=&quot;https://wanwang.aliyun.com/&quot;&gt;万网&lt;/a&gt;注册的域名，价格还不错，第一年 39 元，没想到域名现在这么便宜了。&lt;/p&gt;
+
+&lt;p&gt;域名，解析，计算，存储，应用，阿里云提供了云计算一条龙式的服务，不愧是国内最大的云计算提供商。&lt;/p&gt;
+
+&lt;p&gt;注册好域名后，进入管理控制台，在左边菜单上选择“云解析”选项对域名解析进行设置。&lt;/p&gt;
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww4.sinaimg.cn/large/73bd9e13jw1exex8t4v5lj20ok03kdft.jpg&quot; alt=&quot;域名解析&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后在 GitCafe Pages 服务里增加申请的域名。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ww2.sinaimg.cn/large/73bd9e13jw1exexbgh6sij20bn05x3yh.jpg&quot; alt=&quot;pages设置&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;几分钟后，就可以使用域名了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;如果是位于大陆的主机，根据国家法律，绑定域名必须得备案。&lt;/strong&gt;感谢机智的 GitCafe 团队，把 pages 服务器建在了香港，省去了我们备案的麻烦。&lt;/p&gt;</content><author><name>Tian Qi</name></author><category term="blog" /><category term="blog" /><summary type="html">今天折腾了半天，终于用上了自己的域名 thomastian.com（当前的域名是tianqi.name）。其实本来想注册中文拼音 tianqi 的，然而这个名字太火了，所有的域名都被注册了，所以只好用英文网名了。</summary></entry></feed>
