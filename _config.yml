@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 ## Base settings ##
-base_url: "https://crablion.cn" #The site's Protocol and Hostname e.g. https://blog.someone.com (!!required!!)
+base_url: "https://CrabShell.github.io" #The site's Protocol and Hostname e.g. https://blog.someone.com (!!required!!)
 description: > #this means to ignore newlines until "base_path:"
     Crab Xie | 谢斌
 
