@@ -37,11 +37,12 @@ timezone: Asia/Shanghai
 
 ## Author & social ##
 author: "Crab Xie"
-email: 179501590@qq.com
+email: arbin00@gmail.com
 #twitter_username: kitian616
 github_username:  CrabShell
 #googleplus_username: 101827554735084402671
-#weibo_username: 234695683
+weibo_username: 15801468769
+qq: 179501590
 #douban_username: kitian616
 
 ## Comment system (Disqus) ##
@@ -51,9 +52,9 @@ github_username:  CrabShell
 #ga_tracking_id: UA-71907556-1
 
 ## Reading quantity (LeanCloud) ##
-#app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
-#app_key: Mzf5m9skSwYVWVXhGiYMNyXs
-#app_class: ThomasBlog
+app_id: OroyRxSFuvExuxWf9GRf4Ave-gzGzoHsz
+app_key: ioiup5WTtAmzURSSDdQU9d5j
+app_class: CrabBlog
 
 ## Paginate ##
 paginate: 7
